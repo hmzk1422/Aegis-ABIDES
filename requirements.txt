@@ -1,16 +1,17 @@
-cycler==0.10.0
-joblib==0.13.2
+# Versions bumped to provide Windows wheels for Python 3.11.
+# Same API generation (pre-pandas-2.0, pre-matplotlib-3.8) the code targets.
+cycler==0.12.1
+joblib==1.3.2
 jsons==0.8.8
-kiwisolver==1.1.0
-matplotlib==3.0.3
-numpy==1.16.3
-pandas==0.25.1
-pprofile==2.0.2
-pyparsing==2.4.0
-python-dateutil==2.8.0
-pytz==2019.1
-scipy==1.2.1
-seaborn==0.9.0
-six==1.12.0
-tqdm==4.36.1
-psutil
+kiwisolver==1.4.4
+matplotlib==3.7.2
+numpy==1.26.4
+pandas==1.5.3
+pyparsing==2.4.7
+python-dateutil==2.8.2
+pytz==2023.3
+scipy==1.11.3
+seaborn==0.12.2
+six==1.16.0
+tqdm==4.66.2
+psutil==5.9.4
